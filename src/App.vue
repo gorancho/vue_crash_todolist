@@ -29,8 +29,7 @@ export default {
     },
     addTodo(newTodo) {
       this.todos = [...this.todos, newTodo];
-    },
-    created() {}
+    }
   }
 };
 </script>
